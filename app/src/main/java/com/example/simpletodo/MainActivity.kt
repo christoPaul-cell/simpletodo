@@ -66,7 +66,7 @@ fun TodoScreen() {
                 OutlinedTextField(
                     value = textState,
                     onValueChange = { textState = it },
-                    placeholder = { Text("Enter a new item") },
+                    placeholder = { Text("Ajouter une tache") },
                     modifier = Modifier.weight(1f)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
